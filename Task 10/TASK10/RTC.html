@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Pass Form</title>
+</head>
+<body>
+    <center>
+       <img src="./RTC.jpg"alt=rtc logo width="200">
+        <h1><b><u><i>Telangan State Road Transport Corporation</i></u></b></h1>
+        <h3> General Bus Pass Application</h3>
+    </center>
+        <form method="get" action="./success.html" autocomplete="off">
+        <fieldset>
+            <legend><b>Application Details</b></legend>
+                <label for="Name">Name:</label>
+                <input type="text" id="name" name="name" pattern="[a-zA-Z]+{20}" required autocomplete="off">
+                <label for="Father's/ Guardian Name">Father/Guardian Name</label>
+                <input type="text" id="father name" name="father name" pattern="[a-zA-z]+" required autocomplete="off"><br><br>
+                <label for="Date of Birth">Date Of Birth</label>
+                <input type="date" id="date of birth" name="date of birth" pattern="[0-9]+"
+                    required autocomplete="off">
+                <label for="Gender">Gender
+                    <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female
+                </label><br><br>
+                <label for="age">Age as on:
+                    <input type="type" id="age" name="age" pattern="[0-9]+" title="please enter age correctly" required autocomplete="off">
+                </label>
+                <label for="aadhar no">Aadhar No:
+                    <input type="text" id="aadhar no" name="aadhar no" pattern="[0-9]+" required autocomplete="off">
+                </label><br><br>
+                <label for="whatsspp no">Whatsapp No</label>
+                <input type="text" id="whatsspp no" name="whatsapp no" pattern="[/+91][6789][0-9]{9}"
+                    required autocomplete="off">
+                <label for="e-mail id">E-mail id</label>
+                <input type="email" id="e-mail id" name="e-mail id" pattern="[a-z][0-9][@]{}" autocomplete="off"><br><br>
+                <label for="photo">Photo</label>
+                <input type="file" value="choose file" autocomplete="off">
+            </fieldset><br>
+            <fieldset>
+                <legend><b>Residential Address Details</b></legend>
+                <label for="applicant address">Applicant Address</label>
+                <input type="comments" id="applicant address" name="applicant address"
+                    pattern=".{}" autocomplete="off">
+                <label for="district">District</label>
+                <select name="district">
+                    <option>Hyderabad</option>
+                    <option>Adilabad</option>
+                </select><br><br>
+                <label for="mandal">Mandal</label>
+                <select>
+                    <option>Hyderabad</option>
+                    <option>Adilabad</option>
+                </select>
+                <label for="village">Village</label>
+                <select name="village">
+                    <option>Hyderabad</option>
+                    <option>Adilabad</option>
+                </select><br><br>
+                <label for="text">Pincode</label>
+                <input type="text" id="pincode" name="pincode" pattern="[0-9]+" required autocomplete="off">
+            </fieldset><br>
+            <fieldset>
+                <legend><b>Pass Type Details</b></legend>
+                <label for="city">City</label>
+                <select name="city">
+                    <option>City</option>
+                    <option>Hyderabad</option>
+                    <option> Adilabad</option>
+                </select><br><br>
+                <label for="pass type">Pass Type</label>
+                <select name="pass type">
+                    <option>select</option>
+                    <option>student</option>
+                </select>
+            </fieldset><br>
+            <fieldset>
+                <legend><b>Mode Of Payment & Pass Collection</b></legend>
+                <label for="paymentmode">Payment Mode</label>
+                <select name="paymentmode">
+                    <option name="">select payment mode</option>
+                    <option name="">credit</option>
+                    <option name="">debit</option>
+                    <option name="">UPI</option>
+                </select><br><br>
+                <label for="pass delivery mode">Pass Delivery Mode</label>
+                <select name="pass delivery mode">
+                    <option>select pass delivery mode</option>
+                    <option>live</option>
+                    <option>Online</option>
+                </select><br><br>
+                <label for="collect pass">Center at which you want to collect pass</label>
+                <select name=collect pass>
+                    <option>select</option>
+                    <option>Hyderabad Bus depot</option>
+                    <option>Adilabad Bus Depot</option>
+                </select>
+            </fieldset>
+            <center>
+            <img src="./Screenshot.jpg" alt="captch" width="200"><br>
+            <input type="text" name="captch" pattern="[a-zA-Z0-9]{6}" required autocomplete="off"><br><br>
+            <input type="submit" value="submit">
+         </center>
+     </form>
+    </body>
+    </html
