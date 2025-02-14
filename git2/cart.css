@@ -1,0 +1,76 @@
+.parent{
+    display: flex;
+    justify-content: space-between;
+}
+.cart{
+    height: 280px;
+    width: 20%;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.cart>img{
+    height: 200px;
+    width: 80%;
+    margin: 4px;
+}
+.btn>button{
+    margin: 4px;
+
+   background-color: rgb(255, 0, 221);
+}
+.cart p{
+    margin: 4px;
+}
+.cart span{
+    margin: 4px;
+}
+.Laptop{
+    display: flex;
+    justify-content: space-between;
+}
+.cart{
+    height: 280px;
+    width: 20%;
+    border-radius: 5px;
+    border:1px solid black;
+}
+.cart>img{
+    height: 200px;
+    width: 80%;
+    margin: 4px;
+}
+.cart>button{
+    margin: 4px;
+background-color: rgb(247, 0, 255);
+}
+.cart p{
+    margin: 4px;
+}
+.cart span{
+    margin: 4px;
+}
+.iphone{
+    display: flex;
+    justify-content: space-between;
+}
+.cart{
+    height: 280px;
+    width: 20%;
+    border-radius: 5px;
+    border:1px solid black;
+}
+.cart>img{
+    height: 200px;
+    width: 80%;
+    margin: 4px;
+}
+.cart>button{
+    margin: 4px;
+background-color: aqua;
+}
+.cart p{
+    margin: 4px;
+}
+.cart span{
+    margin: 4px;
+}
