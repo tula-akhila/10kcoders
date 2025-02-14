@@ -1,0 +1,39 @@
+nav{
+    background-color:rgba(20, 0, 19, 0.2);
+    color: black;
+    font-size:medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    text-align: justify;
+}
+
+#profile{
+    background-color:rgba(162, 77, 158, 0.2);
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}
+#education{
+    background-color: rgba(161, 77, 162, 0.2);
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}
+#projects{
+    background-color: rgba(159, 77, 162, 0.2);
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}
+#technical{
+    background-color: rgba(159, 77, 162, 0.2);
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}
+#Declaration{
+    background-color: rgba(162, 77, 159, 0.2);
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}
